@@ -1,74 +1,35 @@
 title: Kyle的创作空间
-description: 只是因为在人群中多看了你一眼
+description: 只是因为在人群中多看了你一眼 # this means to ignore newlines until 
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://0x171.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl:""
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
 author: Kyle # add your name
 author-img: https://camo.githubusercontent.com/433f8697f9d75084619d10c924fc9a6173aff8ed/68747470733a2f2f312e67726176617461722e636f6d2f6176617461722f65316239666633333234646131366362666463373532303265623630336465303f643d68747470732533412532462532466173736574732d63646e2e6769746875622e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d313430 # add your photo
 about-author: 逗比再次，谁改造次. # add description
+twitter: # add your Twitter handle
+facebook: # add your Facebook handle
+github: https://github.com/0x171 # add your Github handle
+linkedin: # add your Linkedin handle
 email: 1712377712@qq.com # add your Email address
 
+# Disqus
 discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
 analytics: # Google Analytics
 
-source:      .
-destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-include:     ./_includes
-exclude:     ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
-keep_files:  ['.git','.svn']
-gems:        []
-encoding:    utf-8
-
+# Build Settings
+markdown: kramdown
 plugins_dir:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
 
-future:      true
-show_drafts: 2
-limit_posts: 10000000
-highlighter: pygments
+paginate: 10
+paginate_path: "/page/:num"
 
-relative_permalinks: true
-
-permalink: ':title/'
-paginate_path: 'page:num'
-paginate:      8
-
-markdown:      maruku,kramdown
-markdown_ext:  markdown,mkd,mkdn,md
-textile_ext:   textile
-
-excerpt_separator: "\n\n"
-
-safe:        false
-baseurl:     ""
-url:         "https://0x171.github.io"
-
-maruku:
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
-  fenced_code_blocks: true
-
-rdiscount:
-  extensions: []
-
-redcarpet:
-  extensions: []
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
-
-redcloth:
-  hard_breaks: true
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
