@@ -4,7 +4,7 @@ name: Kyle
 description: Kyle的创作国度！
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://github.com/0x171/0x171.github.io
+url: https://0x171.github.io/
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
