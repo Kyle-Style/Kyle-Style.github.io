@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: 关于
 permalink: /about/
 ---
 
-Some information about you!
+Kyle
 
-### More Information
+### 更多
 
-A place to include any other types of information that you'd like to include about yourself.
+Have a place nearby.
 
-### Contact me
+### 联系我
 
-[email@domain.com](mailto:email@domain.com)
+[1712377712@qq.com](mailto:1712377712@qq.com)
