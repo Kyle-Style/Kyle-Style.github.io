@@ -17,11 +17,13 @@ avatar: https://camo.githubusercontent.com/433f8697f9d75084619d10c924fc9a6173aff
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
+  wechat:1712377712
+  qq:1712377712
+  weibo:https://weibo.com/171perfect
   email:1712377712@qq.com
+  github:https://github.com/0x171
   facebook:
   flickr:
-  github:0x171
   instagram:
   linkedin:
   pinterest:
@@ -41,13 +43,13 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:https://github.com/0x171
+url:https://0x171.github.io/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/_layouts"
+baseurl: ""
 
 #
 # !! You don't need to change any of the configuration flags below !!
