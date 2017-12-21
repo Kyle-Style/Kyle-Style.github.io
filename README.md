@@ -4,7 +4,7 @@
 
 ## Demo
 
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
+Check the theme in action [Demo](https://0x171.github.io/0x171.github.io/)
 
 The main page would look like this:
 
