@@ -22,6 +22,7 @@ Kyle-Style
 预览
 =======
 ![Kyle-Style]({{ site.baseurl }}/assets/images/preview.png)
+<img src="{{ site.baseurl }}/assets/images/preview.png">
 
 许可证
 =======
