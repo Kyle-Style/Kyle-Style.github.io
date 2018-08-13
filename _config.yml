@@ -3,7 +3,7 @@
 name: Kyle
 description: 为什么我们的人生如此肤浅?
 
-# url is currently only used only for the RSS feed in feed.xml
+# url is currently only used only for the RSS feed in feed.html
 url: https://0x171.github.io/
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
