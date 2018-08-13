@@ -1,10 +1,10 @@
 # Jekyll configuration
 
 name: Kyle
-description: 为什么我们的人生如此肤浅?
+description: 不问过往，  不惧将来。
 
 # url is currently only used only for the RSS feed in feed.html
-url: https://0x171.github.io/
+url: https://Kyle-Style.github.io/
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
